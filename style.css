@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c85959; /* Background color for the waves */
+    background-size: 200% 100%; /* Twice the width for the waves effect */
+    animation: waves 10s infinite linear; /* Animation for the waves */
+}
+
+@keyframes waves {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -100% 0;
+    }
+}
+
+h3 {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Background color for the text */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow for the text box */
+}
